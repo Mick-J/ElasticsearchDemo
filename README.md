@@ -4,22 +4,18 @@
 
 - This demo make use of kaggle [Amazone product sales dataset 2023](https://www.kaggle.com/datasets/lokeshparab/amazon-products-dataset/data?select=Amazon-Products.csv).
 
-
-
 keyword: Elasticsearch, kibana, query data, kaggle Amazone product sales dataset
 
 > [!NOTE]
 > The dataset contains many csv file but only`Amazon-Products.csv` will be used since it combine others file chunks already.
 
-
 ## Step 1: Data cleaning
 
 This step goal is to generate `amazon_products_cleaned.csv` in `cleaned_dataset` folder and will be used further for the elasticsearch queries.
 
-1. Download, extract the dataset from [kaggle](https://www.kaggle.com/datasets/lokeshparab/amazon-products-dataset/data?select=Amazon-Products.csv). 
-2. Put `Amazon-Products.csv` in `amazon_product_dataset` folder.
-3. Use `clean_dataset.ipynb` notebook to clean the dataset and generate `amazon_products_cleaned.csv` file located in `cleaned_dataset` folder. 
-
+1. Download, extract the dataset from [kaggle](https://www.kaggle.com/datasets/lokeshparab/amazon-products-dataset/data?select=Amazon-Products.csv).
+2. Create folder `amazon_product_dataset` folder and put `Amazon-Products.csv` in it.
+3. Use `clean_dataset.ipynb` notebook to clean the dataset and generate `amazon_products_cleaned.csv` file located in `cleaned_dataset` folder.
 
 ## Step 2: start elasticsearch and kibana in docker
 

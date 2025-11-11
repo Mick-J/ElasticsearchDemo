@@ -1,0 +1,26 @@
+# Ignore dataset files
+amazon_product_data.zip
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Optional: ignore temporary data files
+*.csv
+*.ndjson
+*.json
+*.parquet
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+*.env
+*.log
+
+# VSCode or IDE settings (optional)
+.vscode/
+.idea/

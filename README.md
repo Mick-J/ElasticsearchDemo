@@ -7,7 +7,7 @@
 keyword: Elasticsearch, kibana, query data, kaggle Amazone product sales dataset
 
 > [!NOTE]
-> The dataset contains many csv file but only`Amazon-Products.csv` will be used since it combine others file chunks already.
+> The dataset contains many csv file but only`Amazon-Products.csv` will be used since it contains all the dataset.
 
 ## Step 1: Data cleaning
 
@@ -39,16 +39,20 @@ http://localhost:5601/
 
 in home page import data, click on `Upload a file`
 
+<img width="612" height="211" alt="import" src="https://github.com/user-attachments/assets/28251acc-03f0-4460-a98d-333734130dfa" />
+
+
 1.new index name is: amazon_products
-[[image]]
+
+<img width="1222" height="437" alt="upload" src="https://github.com/user-attachments/assets/192db7e9-2fe9-4767-bcde-4c9382540bc7" />
+
 
 2. drag and drop the `amazon_products_cleaned.csv` located inside `cleaned_dataset` folder
 
-[[image]]
+3. In `advanced options` replace the generated mapping by the following
 
-3. In `addvanced options` replace the generated mapping by the following
+<img width="289" height="321" alt="mapping" src="https://github.com/user-attachments/assets/086d5f41-ef93-4ffe-8321-6f44d6c81a8c" />
 
-[[image]]
 
 ```json
 {
@@ -92,11 +96,16 @@ in home page import data, click on `Upload a file`
 4.click `Import`
 
 The end of the import show the following screen.
-[[result_import]]
+
+<img width="1295" height="674" alt="success_upload" src="https://github.com/user-attachments/assets/da76176d-f762-4439-93fa-ed49adaa3f9c" />
+
 
 ## Step 4: test queries in kibabana Dev Tools
 
 click on `menu` and select in `Management` section `Dev Tools`.
+
+<img width="243" height="433" alt="devTool" src="https://github.com/user-attachments/assets/930756f0-7aae-4006-8656-83b1f2983ed6" />
+
 
 ## Product related queries
 

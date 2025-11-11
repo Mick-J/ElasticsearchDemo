@@ -1,5 +1,7 @@
 # Ignore dataset files
 amazon_product_data.zip
+amazon_product_dataset
+cleaned_dataset
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
